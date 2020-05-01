@@ -16,13 +16,16 @@ heroku git:clone -a myapp
 heroku buildpacks:set https://github.com/xinxin8816/heroku-rclone-21vianet.git -a myapp
 ```
 
-2. Setup Rclone by following offical instructions: https://rclone.org/docs/. Chinese users setup with 21vianet peach.<br>
-You can find your config from there.
+2. Setup Rclone by following [Rclone Docs](https://rclone.org/docs/).<br> 
+Optional: using service account setup with [Gclone Rradme](https://github.com/donwa/gclone) to break Google Drive 750GB limit, Chinese users setup with 21vianet patch to connect OneDrive by 21vianet.<br> 
+You can find your config from there:
 
 ```
 Windows: %userprofile%\.config\rclone\rclone.conf
 Linux: $HOME/.config/rclone/rclone.conf
 ```
+
+Rclone with 21vianet patch and Gclone mod provided by xhuang.
 
 3. Go to `myapp` directory, copy `rclone.conf` and winrar registraton key `.rarreg.key` (optional) then commit the change.
 
