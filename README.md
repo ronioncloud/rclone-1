@@ -2,9 +2,6 @@
 Using Rclone with 21vianet mod and Aria2, even UNRAR easily on Heroku.<br>
 在 Heroku 上轻松运行 Rclone、Aria2，甚至是 UNRAR。
 
-Only useing Aria2 and dislike command terminal? Try this [Heroku AriaNG 21vianet](https://github.com/xinxin8816/heroku-ariang-21vianet)<br>
-仅仅想用 Aria2 下载并且不喜欢命令行？试试这个 [Heroku-AriaNG 世纪互联版](https://github.com/xinxin8816/heroku-ariang-21vianet)
-
 ## Deploy
 1. Create new app
 
@@ -17,7 +14,7 @@ heroku buildpacks:set https://github.com/88pan/heroku-rclone-21vianet.git -a mya
 ```
 
 2. Setup Rclone by following [Rclone Docs](https://rclone.org/docs/).<br> 
-Optional: using service account setup with [Gclone Rradme](https://github.com/donwa/gclone) to break Google Drive 750GB limit, Chinese users setup with 21vianet patch to connect OneDrive by 21vianet.<br> 
+Chinese users setup with 21vianet patch to connect OneDrive by 21vianet.<br> 
 You can find your config from there:
 
 ```
