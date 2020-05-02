@@ -1,4 +1,4 @@
-# Heroku-Rclone-21vianet. Heroku-Rclone 世纪互联版
+# Heroku-Rclone-21vianet. Heroku-Rclone 世纪互联版,新增支持sharepoint
 Using Rclone with 21vianet mod and Aria2, even UNRAR easily on Heroku.<br>
 在 Heroku 上轻松运行 Rclone、Aria2，甚至是 UNRAR。
 
